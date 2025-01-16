@@ -83,7 +83,7 @@ def generate_messages():
         adjective = random.choice(ADJECTIVES)
         action = random.choice(ACTIONS)
         topic = random.choice(TOPICS)
-        yield f"On the weekends, I like to just {action} {topic}! It was {adjective}."
+        yield f"On the weekends, I like to just {action} {topic}! Its {adjective}."
 
 
 #####################################
